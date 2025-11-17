@@ -1,0 +1,66 @@
+.header {
+    background-color: #fff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navButton {
+    padding: 10px 20px;
+    border: none;
+}
+
+.navMenu {
+    display: flex;
+    gap: 24px;
+}
+
+.navList {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    cursor: auto;
+    background-color: #a2a3a3;
+}
+
+.navItem {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.navLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.logoLink:hover {
+    text-decoration: none;
+}
+
+.logoLink:focus {
+    outline: none;
+}

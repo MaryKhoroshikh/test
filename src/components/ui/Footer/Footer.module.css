@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: flex-start;
+    padding-inline: 36px;
+    background: rgb(219, 216, 216);
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    position: sticky;
+    bottom: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #81aedf;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #030e1a; /* Цвет ссылки при наведении курсора */
+  text-decoration: underline; /* Добавляем подчёркивание при наведении */
+}
+
+a:link,
+a:visited {
+  color: #37699e; /* Укажите нужный цвет */
+  text-decoration: none; /* Убрать подчёркивание (опционально) */
+}

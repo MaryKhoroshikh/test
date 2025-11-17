@@ -1,0 +1,53 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formLabel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    position: relative;
+}
+
+.label {
+    justify-self: flex-end;
+}
+
+.formField {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    justify-self: end;
+}
+
+.errorText {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -20px;
+    right: 50px;
+}
+
+.submitButton {
+    padding: 10px 15px;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+    cursor: none;
+    background-color: grey;
+}

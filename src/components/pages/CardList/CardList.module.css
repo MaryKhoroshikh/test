@@ -1,0 +1,15 @@
+.cardList {
+    width: 100%;
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+}
