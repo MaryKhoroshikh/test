@@ -13,7 +13,7 @@ function App() {
             <Header />
             <Routes>
                 <Route
-                    path='/test/'
+                    path='/'
                     element={<Navigate to='/products' replace />}
                 />
                 <Route path='/products' element={<CardList />} />
