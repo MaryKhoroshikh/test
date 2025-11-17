@@ -33,7 +33,7 @@ const Header = () => {
             </nav>
 
             <Link to={'/'} className={styles.logoLink}>
-                <div className='logo-container'>
+                <div className={styles.logo}>
                     <img
                         src='https://salfa.ru/wp-content/uploads/2025/04/Asset-11-1_edited-1.jpg'
                         alt='Логотип компании по разработке сайтов и приложений'
