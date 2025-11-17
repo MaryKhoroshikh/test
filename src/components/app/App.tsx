@@ -13,8 +13,8 @@ function App() {
             <Header />
             <Routes>
                 <Route
-                    path='/test'
-                    element={<Navigate to='/products/' replace />}
+                    path='/test/'
+                    element={<Navigate to='/products' replace />}
                 />
                 <Route path='/products' element={<CardList />} />
                 <Route path='/create-new-card' element={<CreateCard />} />

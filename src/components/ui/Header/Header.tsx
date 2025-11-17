@@ -32,7 +32,7 @@ const Header = () => {
                 </ul>
             </nav>
 
-            <Link to={'/'} className={styles.logoLink}>
+            <Link to={'https://salfa.ru/'} className={styles.logoLink}>
                 <div className={styles.logo}>
                     <img
                         src='https://salfa.ru/wp-content/uploads/2025/04/Asset-11-1_edited-1.jpg'
