@@ -13,12 +13,12 @@ function App() {
             <Header />
             <Routes>
                 <Route
-                    path='/'
+                    path='/test/'
                     element={<Navigate to='/products/' replace />}
                 />
-                <Route path='/products' element={<CardList />} />
-                <Route path='/create-new-card' element={<CreateCard />} />
-                <Route path='/products/:id' element={<CardPage />} />
+                <Route path='/test/products' element={<CardList />} />
+                <Route path='/test/create-new-card' element={<CreateCard />} />
+                <Route path='/test/products/:id' element={<CardPage />} />
             </Routes>
             <Footer />
         </div>

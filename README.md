@@ -25,4 +25,4 @@
 - Tg: [goodmary1024](https://t.me/goodmary1024)
 
 ## Ссылки на дополнительные ресурсы
-- Сайт проекта: []()
+- Сайт проекта: [](https://marykhoroshikh.github.io/test/)
