@@ -8,7 +8,7 @@ SPA, сервера нет, используются моковые данные
 - показывать по клику дополнительную информацию по каждой карточке
 
 ## Как запустить проект
-1. `git clone https://github.com/MaryKhoroshikh/Test-project-for-Sarafan-Doct24.git`.
+1. git clone [[https://github.com/MaryKhoroshikh/Test-project-for-Sarafan-Doct24.git](https://github.com/MaryKhoroshikh/Trees.git)](https://github.com/MaryKhoroshikh/Trees.git).
 2. npm install
 4. npm start
 
